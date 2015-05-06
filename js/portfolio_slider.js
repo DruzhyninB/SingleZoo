@@ -17,7 +17,7 @@ $("#elastic_grid_demo").elastic_grid({
 			{ 'title':'Demo', 'url' : 'http://#' },
 			{ 'title':'Download', 'url':'http://#'}
 			],
-			'tags'  : ['All']
+			'tags'  : ['Все']
 			},
 
 			{
@@ -30,7 +30,7 @@ $("#elastic_grid_demo").elastic_grid({
 			{ 'title':'Demo', 'url' : 'http://#' },
 			{ 'title':'Download', 'url':'http://#'}
 			],
-			'tags'  : ['testing','All']
+			'tags'  : ['Dogs','Все']
 			},
 
 			{
@@ -43,7 +43,7 @@ $("#elastic_grid_demo").elastic_grid({
 			{ 'title':'Demo', 'url' : 'http://#' },
 			{ 'title':'Download', 'url':'http://#'}
 			],
-			'tags'  : ['Design', 'All']
+			'tags'  : ['Кошки', 'Все']
 			},
 
 			{
@@ -56,7 +56,7 @@ $("#elastic_grid_demo").elastic_grid({
 			{ 'title':'Demo', 'url' : 'http://#' },
 			{ 'title':'Download', 'url':'http://#'}
 			],
-			'tags'  : ['Jquery','All']
+			'tags'  : ['Рыбки','Все']
 			},
 
 			{
@@ -69,7 +69,7 @@ $("#elastic_grid_demo").elastic_grid({
 			{ 'title':'Demo', 'url' : 'http://#' },
 			{ 'title':'Download', 'url':'http://#'}
 			],
-			'tags'  : ['Wordpress','All']
+			'tags'  : ['Птицы','Все']
 			},
 
 			{
@@ -82,7 +82,7 @@ $("#elastic_grid_demo").elastic_grid({
 			{ 'title':'Demo', 'url' : 'http://#' },
 			{ 'title':'Download', 'url':'http://#'}
 			],
-			'tags'  : ['testing']
+			'tags'  : ['Dogs']
 			},
 
 			{
@@ -95,7 +95,7 @@ $("#elastic_grid_demo").elastic_grid({
 			{ 'title':'Demo', 'url' : 'http://#' },
 			{ 'title':'Download', 'url':'http://#'}
 			],
-			'tags'  : ['Design']
+			'tags'  : ['Кошки']
 			},
 
 			{
@@ -108,7 +108,7 @@ $("#elastic_grid_demo").elastic_grid({
 			{ 'title':'Demo', 'url' : 'http://#' },
 			{ 'title':'Download', 'url':'http://#'}
 			],
-			'tags'  : ['Jquery']
+			'tags'  : ['Рыбки']
 			},
 
 			{
@@ -121,7 +121,7 @@ $("#elastic_grid_demo").elastic_grid({
 			{ 'title':'Demo', 'url' : 'http://#' },
 			{ 'title':'Download', 'url':'http://#'}
 			],
-			'tags'  : ['Wordpress']
+			'tags'  : ['Птицы']
 			},
 
 			{
@@ -134,7 +134,7 @@ $("#elastic_grid_demo").elastic_grid({
 			{ 'title':'Demo', 'url' : 'http://#' },
 			{ 'title':'Download', 'url':'http://#'}
 			],
-			'tags'  : ['Design']
+			'tags'  : ['Кошки']
 			},
 
 			{
@@ -147,7 +147,7 @@ $("#elastic_grid_demo").elastic_grid({
 			{ 'title':'Demo', 'url' : 'http://#' },
 			{ 'title':'Download', 'url':'http://#'}
 			],
-			'tags'  : ['testing']
+			'tags'  : ['Dogs']
 			},
 
 			{
@@ -160,7 +160,7 @@ $("#elastic_grid_demo").elastic_grid({
 			{ 'title':'Demo', 'url' : 'http://#' },
 			{ 'title':'Download', 'url':'http://#'}
 			],
-			'tags'  : ['Jquery', 'Wordpress']
+			'tags'  : ['Рыбки', 'Птицы']
 			},
 
 			{
@@ -173,7 +173,7 @@ $("#elastic_grid_demo").elastic_grid({
 			{ 'title':'Demo', 'url' : 'http://#' },
 			{ 'title':'Download', 'url':'http://#'}
 			],
-			'tags'  : ['Wordpress']
+			'tags'  : ['Птицы']
 			},
 
 			{
@@ -186,7 +186,7 @@ $("#elastic_grid_demo").elastic_grid({
 			{ 'title':'Demo', 'url' : 'http://#' },
 			{ 'title':'Download', 'url':'http://#'}
 			],
-			'tags'  : ['testing']
+			'tags'  : ['Dogs']
 			},
 
 			{
@@ -199,7 +199,7 @@ $("#elastic_grid_demo").elastic_grid({
 			{ 'title':'Demo', 'url' : 'http://#' },
 			{ 'title':'Download', 'url':'http://#'}
 			],
-			'tags'  : ['Jquery', 'Design']
+			'tags'  : ['Рыбки', 'Кошки']
 			}
 	 
 		]
