@@ -1,4 +1,4 @@
-$(function(){
+п»ї$(function(){
 $("#elastic_grid_demo").elastic_grid({	
 	'hoverDirection': true,
 	'hoverDelay': 0,
@@ -17,7 +17,7 @@ $("#elastic_grid_demo").elastic_grid({
 			{ 'title':'Demo', 'url' : 'http://#' },
 			{ 'title':'Download', 'url':'http://#'}
 			],
-			'tags'  : ['Все']
+			'tags'  : ['Р’СЃРµ']
 			},
 
 			{
@@ -30,7 +30,7 @@ $("#elastic_grid_demo").elastic_grid({
 			{ 'title':'Demo', 'url' : 'http://#' },
 			{ 'title':'Download', 'url':'http://#'}
 			],
-			'tags'  : ['Dogs','Все']
+			'tags'  : ['Dogs','Р’СЃРµ']
 			},
 
 			{
@@ -43,7 +43,7 @@ $("#elastic_grid_demo").elastic_grid({
 			{ 'title':'Demo', 'url' : 'http://#' },
 			{ 'title':'Download', 'url':'http://#'}
 			],
-			'tags'  : ['Кошки', 'Все']
+			'tags'  : ['РљРѕС€РєРё', 'Р’СЃРµ']
 			},
 
 			{
@@ -56,7 +56,7 @@ $("#elastic_grid_demo").elastic_grid({
 			{ 'title':'Demo', 'url' : 'http://#' },
 			{ 'title':'Download', 'url':'http://#'}
 			],
-			'tags'  : ['Рыбки','Все']
+			'tags'  : ['Р С‹Р±РєРё','Р’СЃРµ']
 			},
 
 			{
@@ -69,7 +69,7 @@ $("#elastic_grid_demo").elastic_grid({
 			{ 'title':'Demo', 'url' : 'http://#' },
 			{ 'title':'Download', 'url':'http://#'}
 			],
-			'tags'  : ['Птицы','Все']
+			'tags'  : ['РџС‚РёС†С‹','Р’СЃРµ']
 			},
 
 			{
@@ -95,7 +95,7 @@ $("#elastic_grid_demo").elastic_grid({
 			{ 'title':'Demo', 'url' : 'http://#' },
 			{ 'title':'Download', 'url':'http://#'}
 			],
-			'tags'  : ['Кошки']
+			'tags'  : ['РљРѕС€РєРё']
 			},
 
 			{
@@ -108,7 +108,7 @@ $("#elastic_grid_demo").elastic_grid({
 			{ 'title':'Demo', 'url' : 'http://#' },
 			{ 'title':'Download', 'url':'http://#'}
 			],
-			'tags'  : ['Рыбки']
+			'tags'  : ['Р С‹Р±РєРё']
 			},
 
 			{
@@ -121,7 +121,7 @@ $("#elastic_grid_demo").elastic_grid({
 			{ 'title':'Demo', 'url' : 'http://#' },
 			{ 'title':'Download', 'url':'http://#'}
 			],
-			'tags'  : ['Птицы']
+			'tags'  : ['РџС‚РёС†С‹']
 			},
 
 			{
@@ -134,7 +134,7 @@ $("#elastic_grid_demo").elastic_grid({
 			{ 'title':'Demo', 'url' : 'http://#' },
 			{ 'title':'Download', 'url':'http://#'}
 			],
-			'tags'  : ['Кошки']
+			'tags'  : ['РљРѕС€РєРё']
 			},
 
 			{
@@ -160,7 +160,7 @@ $("#elastic_grid_demo").elastic_grid({
 			{ 'title':'Demo', 'url' : 'http://#' },
 			{ 'title':'Download', 'url':'http://#'}
 			],
-			'tags'  : ['Рыбки', 'Птицы']
+			'tags'  : ['Р С‹Р±РєРё', 'РџС‚РёС†С‹']
 			},
 
 			{
@@ -173,7 +173,7 @@ $("#elastic_grid_demo").elastic_grid({
 			{ 'title':'Demo', 'url' : 'http://#' },
 			{ 'title':'Download', 'url':'http://#'}
 			],
-			'tags'  : ['Птицы']
+			'tags'  : ['РџС‚РёС†С‹']
 			},
 
 			{
@@ -199,7 +199,7 @@ $("#elastic_grid_demo").elastic_grid({
 			{ 'title':'Demo', 'url' : 'http://#' },
 			{ 'title':'Download', 'url':'http://#'}
 			],
-			'tags'  : ['Рыбки', 'Кошки']
+			'tags'  : ['Р С‹Р±РєРё', 'РљРѕС€РєРё']
 			}
 	 
 		]
