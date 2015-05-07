@@ -739,6 +739,7 @@ div[data-dimension] {
   padding: 25px 15px;
   text-align: center;
   width: 100%;
+  height:530px;
 }
 .team_img{
 	float: left;
@@ -768,6 +769,7 @@ div[data-dimension] {
 }
 .single_team p {
   line-height: 26px;
+  height:190px;
 }
 .team_social{
 	float: left;

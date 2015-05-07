@@ -8,8 +8,7 @@ $("#elastic_grid_demo").elastic_grid({
 	'items' :
 		[
 			{
-			'title' : 'Gallery 1',
-			'description'   : 'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.',
+			'title' : '',
 			'thumbnail': ['img/portfolio/small/1.jpg', 'img/portfolio/small/2.jpg'],
 			'large': ['img/portfolio/large/1.jpg', 'img/portfolio/large/2.jpg', ],
 			'button_list'   :
