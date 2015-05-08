@@ -1213,7 +1213,7 @@ div[data-dimension] {
 .form-control::-moz-placeholder {
   color: #999;
   opacity: 1;
-}
+}single contact
 .form-control:-ms-input-placeholder {
   color: #999;
 }
@@ -1253,7 +1253,8 @@ textarea .form-control {
 	z-index: 999;
 }
 .single_contact_feaured {  
-  border: 1px solid #ccc;
+  border: 1px dashed #ccc;
+  border-radius:10px;
   display: inline;
   float: left;
   padding: 20px 10px;
@@ -1339,7 +1340,39 @@ textarea .form-control {
 .subscr_btn:hover{
 	opacity: 0.75;
 }
+/*--------------------*/
+/* Dinamica block */
+/*--------------------*/
+.Logo_img{
+  color: rgb(52, 73, 94);
+  cursor: pointer;
+  display: block;
+  font-family: Quicksand-Regular;
+  font-size: 30px;
+  height: 80px;
+  line-height: 75px;
+  width: 426px;
+  padding:5px;
+  margin:auto;
+  border:1px solid #ccc;
+  margin-top:10px;
+}
+.Logo_img img{
+    vertical-align: middle;
+    margin-top: -30px;
+}
+.Logo_img a:hover{
+    text-decoration:none;
+    color: rgb(52, 73, 94);
+}
+.dinamicka{
+    font-family:Quicksand-Regular;
+}
 
+@font-face {
+    font-family: 'Quicksand-Regular';
+    src: url('fonts/Quicksand-Regular.otf') format('opentype');
+}
 /*--------------------*/
 /* FOOTER */
 /*--------------------*/
