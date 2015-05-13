@@ -1452,7 +1452,7 @@ textarea .form-control {
   .about_slider{margin-top: 30px;}
   .single_iteam {text-align: center;}
   .single_iteam img {display: inline-block;}
-  .single_service .service_title {font-size: 18px;}
+  .single_service .service_title {font-size: 15px;}
   .single_service > .service_title:after {left: 33%;}
   .single_price > h3 {font-size: 20px;line-height: 80px;}
   .single_price .price > h4 {font-size: 50px;line-height: 50px;}
