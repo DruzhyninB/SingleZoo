@@ -14,6 +14,7 @@ Tags: light, white, landing page,single page,Multipurpose,custom-colors,Bootstra
 	#BASIC TYPOGRAPHY
 	#HEADER
 	#ABOUT SECTION
+    #ACTION SECTION
 	#SERVICE SECTION
 	#Works SECTION
 	#TEAM SECTION
@@ -343,7 +344,7 @@ img{
   text-align: center;
   z-index: 999;
 }
-.slider_caption > h2 {
+.slider_caption > h1 {
   color: #ffffff;
   font-size: 65px;
   font-weight: 700;
@@ -368,6 +369,7 @@ img{
 	font-size: 20px;
 	display: inline-block;
 	text-transform: uppercase;
+    border-radius: 10px 3px;
 }
 .slider_btn:hover,.slider_btn:focus{
 	text-decoration: none;
@@ -482,9 +484,10 @@ img{
   max-width: 100%;
 }
 .about_slider .slick-dots li button:before {
-  content: "•";
+  content: "";
   font-size: 28px;  
 }
+/*•*/
 .about_slider .slick-dots li.slick-active button:before {
   opacity: 0.75;
 }
@@ -531,6 +534,15 @@ div[data-dimension] {
   color: #ffffff;
   font-size: 20px;
   font-weight: bold;
+}
+/*--------------------*/
+/* ACTION SECTION */
+/*--------------------*/
+#action{
+     display: inline;
+  float: left;
+  padding: 30px 0 70px;
+  width: 100%;
 }
 
 /*--------------------*/
@@ -616,8 +628,9 @@ div[data-dimension] {
     background-size: 100% 100%;
     display: inline;
     float: left;
+    height: 300px;
     min-height: 350px;
-    padding: 80px 0;
+    padding: 30px 0;
     position: relative;
     width: 100%;
 }
@@ -782,6 +795,58 @@ div[data-dimension] {
   font-size: 18px;
   display: inline-block;
   background: #ccc;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  border-radius: 50%;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.team_social a.facebook:hover {
+  color: white;
+  font-size: 18px;
+  display: inline-block;
+  background: #3B5998;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  border-radius: 50%;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.team_social a.twitter:hover {
+  color: white;
+  font-size: 18px;
+  display: inline-block;
+  background: #00acee;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  border-radius: 50%;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.team_social a.google-plus:hover {
+  color: white;
+  font-size: 18px;
+  display: inline-block;
+  background: #F44336;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  border-radius: 50%;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.team_social a.linkedin:hover {
+  color: white;
+  font-size: 18px;
+  display: inline-block;
+  background: #0077b5;
   width: 35px;
   height: 35px;
   line-height: 35px;
@@ -1411,6 +1476,62 @@ textarea .form-control {
 .social_nav li a {
   border: 1px solid #fff;
   color: #ffffff;
+  display: inline-block;
+  font-size: 18px;
+  height: 30px;
+  margin-left: 5px;
+  text-align: center;
+  width: 35px;
+  line-height: 28px;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.social_nav li a.facebook:hover {
+  border: 1px solid #3B5998;
+  color: #3B5998;
+  display: inline-block;
+  font-size: 18px;
+  height: 30px;
+  margin-left: 5px;
+  text-align: center;
+  width: 35px;
+  line-height: 28px;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.social_nav li a.twitter:hover {
+  border: 1px solid #00acee;
+  color: #00acee;
+  display: inline-block;
+  font-size: 18px;
+  height: 30px;
+  margin-left: 5px;
+  text-align: center;
+  width: 35px;
+  line-height: 28px;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.social_nav li a.google-plus:hover {
+  border: 1px solid #F44336;
+  color: #F44336;
+  display: inline-block;
+  font-size: 18px;
+  height: 30px;
+  margin-left: 5px;
+  text-align: center;
+  width: 35px;
+  line-height: 28px;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.social_nav li a.linkedin:hover {
+  border: 1px solid #0077b5;
+  color: #0077b5;
   display: inline-block;
   font-size: 18px;
   height: 30px;
