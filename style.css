@@ -236,8 +236,8 @@ img{
 	z-index: 100;
 	height: 0;
 	background: #fff;
-	-webkit-transition: height 1s, -webkit-transform 0.3s;
-	transition: height 1s, transform 0.3s;
+	-webkit-transition: height 0.3s, -webkit-transform 0.3s;
+	transition: height 0.3s, transform 0.3s;
 }
 
 .slides-navigation a::before,
@@ -300,11 +300,11 @@ img{
 	transform: translateY(-50%) translateX(50%);
 }
 
-/*.slides-navigation a:hover .icon-wrap::before,
+.slides-navigation a:hover .icon-wrap::before,
 .slides-navigation a:hover .icon-wrap::after {
 	height: 50%;
-} Это добавляет белые полоски
-*/
+}
+
 .slides-navigation a:hover::before,
 .slides-navigation a:hover .icon-wrap::before {
 	-webkit-transform: translateX(-50%) rotate(-125deg);
