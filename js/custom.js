@@ -19,7 +19,9 @@
 	12. SCROLL TOP BUTTON
 	13. PRELOADER 
 	14. MENU SCROLL 
-	15. MOBILE MENU CLOSE 	
+    15. SLIDER BTN SCROLL
+	16. MOBILE MENU CLOSE 	
+
 	
 **/
 
@@ -427,30 +429,51 @@ jQuery(function($){
 
 	// Bind to scroll
 	$(window).scroll(function(){
-	   // Get container scroll position
-	   var fromTop = $(this).scrollTop()+topMenuHeight;
+	    // Get container scroll position
+	    var fromTop = $(this).scrollTop()+topMenuHeight;
 	   
-	   // Get id of current scroll item
-	   var cur = scrollItems.map(function(){
-	     if ($(this).offset().top < fromTop)
-	       return this;
-	   });
-	   // Get the id of the current element
-	   cur = cur[cur.length-1];
-	   var id = cur && cur.length ? cur[0].id : "";
+	    // Get id of current scroll item
+	    var cur = scrollItems.map(function(){
+	        if ($(this).offset().top < fromTop)
+	            return this;
+	    });
+	    // Get the id of the current element
+	    cur = cur[cur.length-1];
+	    var id = cur && cur.length ? cur[0].id : "";
 	   
-	   if (lastId !== id) {
-	       lastId = id;
-	       // Set/remove active class
-	       menuItems
-	         .parent().removeClass("active")
-	         .end().filter("[href=#"+id+"]").parent().addClass("active");
-	   }           
-	})
+	    if (lastId !== id) {
+	        lastId = id;
+	        // Set/remove active class
+	        menuItems
+              .parent().removeClass("active")
+              .end().filter("[href=#"+id+"]").parent().addClass("active");
+	    }           
+	});
 
-
+    /* ----------------------------------------------------------- */
+    /*  15. SLIDER BTN SCROLL 
 	/* ----------------------------------------------------------- */
-	/*  15. MOBILE MENU ACTIVE CLOSE 
+
+        // All list items
+        btnItems = $('a[class="slider_btn"]');
+        // Anchors corresponding to menu items
+        scrollbtnItems = btnItems.map(function () {
+            var itembtn = $($(this).attr("href"));
+            if (itembtn.length) { return itembtn; }
+        });
+
+    // Bind click handler to menu items
+    // so we can get a fancy scroll animation
+	btnItems.click(function (e) {
+	    var hrefbtn = $(this).attr("href"),
+            offsetbtnTop = hrefbtn === "#" ? 0 : $(hrefbtn).offset().top - 62;
+	    $('html, body').stop().animate({
+	        scrollTop: offsetbtnTop
+	    }, 900);
+	    e.preventDefault();
+	});
+	/* ----------------------------------------------------------- */
+	/*  16. MOBILE MENU ACTIVE CLOSE 
 	/* ----------------------------------------------------------- */ 
 
 	$('.navbar-nav').on('click', 'li a', function() {

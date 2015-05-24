@@ -127,6 +127,54 @@ $("#elastic_grid_demo").elastic_grid({
 			],
 			'tags': ['Птицы', 'Все']
 			},
+            {
+                'title': 'TEST',
+                'description': 'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.',
+                'thumbnail': ['img/portfolio/small/bird_3_small.jpg', 'img/portfolio/small/bird_4_small.jpg'],
+                'large': ['img/portfolio/large/bird_3_large.jpg', 'img/portfolio/large/bird_4_large.jpg'],
+                'button_list':
+                [
+                { 'title': 'Demo', 'url': 'http://#' },
+                { 'title': 'Download', 'url': 'http://#' }
+                ],
+                'tags': ['Собаки', 'Все']
+            },
+            {
+                'title': 'TEST',
+                'description': 'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.',
+                'thumbnail': ['img/portfolio/small/bird_3_small.jpg', 'img/portfolio/small/bird_4_small.jpg'],
+                'large': ['img/portfolio/large/bird_3_large.jpg', 'img/portfolio/large/bird_4_large.jpg'],
+                'button_list':
+                [
+                { 'title': 'Demo', 'url': 'http://#' },
+                { 'title': 'Download', 'url': 'http://#' }
+                ],
+                'tags': ['Кошки', 'Все']
+            },
+            {
+                'title': 'TEST',
+                'description': 'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.',
+                'thumbnail': ['img/portfolio/small/bird_3_small.jpg', 'img/portfolio/small/bird_4_small.jpg'],
+                'large': ['img/portfolio/large/bird_3_large.jpg', 'img/portfolio/large/bird_4_large.jpg'],
+                'button_list':
+                [
+                { 'title': 'Demo', 'url': 'http://#' },
+                { 'title': 'Download', 'url': 'http://#' }
+                ],
+                'tags': ['Птицы', 'Все']
+            },
+            {
+                'title': 'TEST',
+                'description': 'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.',
+                'thumbnail': ['img/portfolio/small/bird_3_small.jpg', 'img/portfolio/small/bird_4_small.jpg'],
+                'large': ['img/portfolio/large/bird_3_large.jpg', 'img/portfolio/large/bird_4_large.jpg'],
+                'button_list':
+                [
+                { 'title': 'Demo', 'url': 'http://#' },
+                { 'title': 'Download', 'url': 'http://#' }
+                ],
+                'tags': ['Рыбки', 'Все']
+            },
 		]
 	});
 });
