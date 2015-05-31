@@ -20,7 +20,8 @@
 	13. PRELOADER 
 	14. MENU SCROLL 
     15. SLIDER BTN SCROLL
-	16. MOBILE MENU CLOSE 	
+	16. MOBILE MENU CLOSE
+    17. FORM VALIDATION
 
 	
 **/
@@ -482,3 +483,6 @@ jQuery(function($){
 
 	
 });
+/* ----------------------------------------------------------- */
+/*  16. FORM VALIDATION
+/* ----------------------------------------------------------- */

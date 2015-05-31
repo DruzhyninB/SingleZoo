@@ -136,6 +136,22 @@ img{
 }
 
 /*--------.menu_area-------- */
+.leng{
+    border:1px solid white;
+    padding:4px;    
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    position:absolute;
+    z-index:5000;
+    top:5px;
+    left:5px
+}
+.leng:hover{
+    border:1px solid #26A65B;
+    color:#26A65B;
+}
 .menu_area{
 	position: absolute;
 	left:0;
@@ -379,6 +395,7 @@ img{
   float: left;
   width: 100%;
   padding: 40px 0px;
+  background: none repeat scroll 0 0 #f8f8f8;
 }
 .about_area{
 	float: left;
@@ -537,6 +554,7 @@ div[data-dimension] {
   float: left;
   padding: 30px 0 70px;
   width: 100%;
+  background: none repeat scroll 0 0 #f8f8f8;
 }
 
 /*--------------------*/
@@ -548,7 +566,6 @@ div[data-dimension] {
   float: left;
   padding: 30px 0 70px;
   width: 100%;
-  background: none repeat scroll 0 0 #f8f8f8;
   border-top: 1px solid #eee;
   border-bottom: 1px solid #eee;
 }
