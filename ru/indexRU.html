@@ -670,13 +670,13 @@
                 <!-- FOR CONTACT FORM MESSAGE -->
                 <div id="form-messages"></div>
 
-                <form>
-               <input class="form-control" type="text" placeholder="Имя">
-                  <input class="form-control" type="email" placeholder="Почтовый адрес">
-                  <input class="form-control" type="text" placeholder="Телефон">
-                  <textarea class="form-control" cols="30" rows="10" placeholder="Ваше сообщение"></textarea>
-                   <input class="submit_btn" type="submit" value="Отправить">  
-                </form>
+                  <form id="opinion">
+                      <input class="form-control" type="text" data-val="^[а-яА-ЯёЁa-zA-Z]+$" placeholder="Имя" name="Namee">
+                      <input class="form-control" type="email" data-val="^[-\w.]+@([A-z0-9][-A-z0-9]+\.)+[A-z]{2,4}$" placeholder="Почта" name="Email">
+                      <input class="form-control" type="text" placeholder="Номер телефона" name="Phone">
+                      <textarea class="form-control" cols="30" rows="10" placeholder="Ваше сообщение" name="massege"></textarea>
+                      <input class="submit_btn" style="float:left" type="submit" value="Send">  <p id="inter">Письмо отправленно</p>
+                  </form>
               </div>
             </div>
             <!-- BEGAIN CONTACT MAP -->
@@ -789,5 +789,7 @@
     <script src="../js/portfolio_slider.js"></script>
     <!-- Custom js-->
     <script src="../js/custom.js"></script>
+      <!-- Mail JS-->
+      <script src="../js/Mail.Properties.js"></script>
   </body>
 </html>

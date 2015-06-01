@@ -666,12 +666,12 @@
                 <!-- FOR CONTACT FORM MESSAGE -->
                 <div id="form-messages"></div>
 
-                <form>
-                    <input class="form-control" type="text" placeholder="Name" required="required">
-                    <input class="form-control" type="email" placeholder="E-mail" required="required">
-                    <input class="form-control" type="text" placeholder="Phone number">
-                    <textarea class="form-control" cols="30" rows="10" placeholder="Your message"></textarea>
-                   <input class="submit_btn" type="submit" value="Send">  
+                <form id="opinion">
+                    <input class="form-control" type="text" data-val="^[а-яА-ЯёЁa-zA-Z]+$" placeholder="Name" name="Namee">
+                    <input class="form-control" type="email" data-val="^[-\w.]+@([A-z0-9][-A-z0-9]+\.)+[A-z]{2,4}$" placeholder="E-mail" name="Email">
+                    <input class="form-control" type="text" placeholder="Phone number" name="Phone">
+                    <textarea class="form-control" cols="30" rows="10" placeholder="Your message" name="massege"></textarea>
+                   <input class="submit_btn" style="float:left" type="submit" value="Send">  <p id="inter" style="opacity:0">Sent a letter</p>
                 </form>
               </div>
             </div>
@@ -785,5 +785,7 @@
     <script src="js/portfolio_slider(eng).js"></script>
     <!-- Custom js-->
     <script src="js/custom.js"></script>
+      <!-- Mail Script -->
+<script src="js/Mail.Properties.js"></script>
   </body>
 </html>

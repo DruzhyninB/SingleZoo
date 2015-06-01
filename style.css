@@ -1060,6 +1060,14 @@ fieldset[disabled] .form-control {
   background-color: #eee;
   opacity: 1;
 }
+form p {
+   font-size: 16px;
+    font-weight: 300;
+    margin-top: 44px;
+    margin-left: 150px;
+    transition: opacity 1s;
+    
+}
 textarea .form-control {
   height: auto;
 }
