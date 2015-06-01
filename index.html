@@ -669,9 +669,9 @@
                 <form id="opinion">
                     <input class="form-control" type="text" data-val="^[а-яА-ЯёЁa-zA-Z]+$" placeholder="Name" name="Namee">
                     <input class="form-control" type="email" data-val="^[-\w.]+@([A-z0-9][-A-z0-9]+\.)+[A-z]{2,4}$" placeholder="E-mail" name="Email">
-                    <input class="form-control" type="text" placeholder="Phone number" name="Phone">
+                    <input class="form-control" type="text" data-val="^[0-9]+$" placeholder="Phone number" name="Phone">
                     <textarea class="form-control" cols="30" rows="10" placeholder="Your message" name="massege"></textarea>
-                   <input class="submit_btn" style="float:left" type="submit" value="Send">  <p id="inter" style="opacity:0">Sent a letter</p>
+                   <input class="submit_btn" style="float:left" type="submit" value="Send">  <span id="inter" style="opacity:0" data-leng="eng"></span>
                 </form>
               </div>
             </div>
