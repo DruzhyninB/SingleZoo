@@ -146,7 +146,8 @@ img{
     position:absolute;
     z-index:5000;
     top:5px;
-    left:5px
+    right:5px;
+    
 }
 .leng:hover{
     border:1px solid #26A65B;
@@ -1064,7 +1065,7 @@ form span {
    font-size: 20px;
     font-weight: 300;
     line-height: 5;
-    margin-left: 100px;
+    margin-left: 60px;
     transition: opacity 1s;
     
 }
@@ -1345,7 +1346,7 @@ textarea .form-control {
 
 }
 
-@media(max-width:480px ){	
+@media(max-width:480px ){
 	#slides {height: 320px !important;}
 	.slider_caption {margin-top: 20%;}
 	.slider_caption > h2 { font-size: 20px;line-height: 22px;margin-bottom: 0px;}
