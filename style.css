@@ -1309,6 +1309,7 @@ textarea .form-control {
 }
 
 @media(max-width:767px ){
+    .leng{right: 310px;}
 	.navbar-collapse{background-color: rgba(0,0,0,0.8);} 
 	.main_nav{text-align: center;}
 	.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {background-color: rgba(0,0,0,0.5);}
@@ -1357,6 +1358,7 @@ textarea .form-control {
 }
 
 @media(max-width:480px ){
+    .leng {right:150px;}
 	#slides {height: 320px !important;}
 	.slider_caption {margin-top: 20%;}
 	.slider_caption > h2 { font-size: 20px;line-height: 22px;margin-bottom: 0px;}
@@ -1378,6 +1380,7 @@ textarea .form-control {
 }
 
 @media(max-width:360px ){
+    .leng{right: 120px;}
 	.slider_caption {margin-top: 28%;}
 	.slider_caption > a {margin-top: 10px;}
 	.slides-navigation h3 {display: none;}
