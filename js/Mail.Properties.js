@@ -16,18 +16,26 @@ form.addEventListener("submit", validateform, false);
 
 
 function validation() {
-    var patte = this.dataset.val,value = this.value;
+    var patte = this.dataset.val,
+        value = this.value,
+        masgid = this.dataset.msgid;
+        masg = this.dataset.valMsg;
 
     var res = value.search(patte);
     if (value !== "") {
         if (res == -1) {
+            document.getElementById(masgid).innerHTML = masg;
+            document.getElementById(masgid).style.opacity = "1";
             this.className = "form-control formError";
         }
     }
+
 }
 
 function resetFormElem() {
     this.className = "form-control";
+    var idToClear = this.dataset.msgid
+    document.getElementById(idToClear).style.opacity = "0";
 }
 
 

@@ -77,11 +77,7 @@
 
             <!-- TEXT BASED LOGO -->
             <a class="navbar-brand" href="#">Single<span>ZOO</span></a>
-            
-            <!-- IMG BASED LOGO  -->
-            <!--  <a class="navbar-brand" href="#"><img src="img/logo.png" alt="logo"></a> --> 
-            
-                   
+                          
           </div>
           <div id="navbar" class="navbar-collapse collapse">
             <ul id="top-menu" class="nav navbar-nav navbar-right ">
@@ -167,8 +163,6 @@
       <!-- END SLIDER AREA -->
     </header>
     <!--=========== End HEADER SECTION ================--> 
-
-    <!--===========Был убран блок "Наши навыки"========-->
 
     <!--=========== BEGIN ABOUT SECTION ===============-->
     <section id="about">
@@ -421,7 +415,7 @@
     </section>
     <!--=========== END WORKS SECTION ================-->
 
-    <!--=========== BEGAIN TEAM SECTION ======опустить блок команди ниже==========-->
+    <!--=========== BEGAIN TEAM SECTION =============-->
     <section id="team">
       <div class="container">
         <div class="row">
@@ -608,7 +602,7 @@
               </div>
               <!-- BEGAIN BUSINESS PRICE TABLE -->
               <div class="col-lg-3 col-md-3 col-sm-3">
-                <div class="single_price wow fadeInUp"> <!-- доспупен class="business_price"  -->
+                <div class="single_price wow fadeInUp">
                   <h3>Pro</h3>
                   <div class="price">
                     <h4>$125</h4>
@@ -666,13 +660,13 @@
                 <!-- FOR CONTACT FORM MESSAGE -->
                 <div id="form-messages"></div>
 
-                <form id="opinion">
-                    <input class="form-control" type="text" data-val="^[а-яА-ЯёЁa-zA-Z]+$" placeholder="Name" name="Namee">
-                    <input class="form-control" type="email" data-val="^[-\w.]+@([A-z0-9][-A-z0-9]+\.)+[A-z]{2,4}$" placeholder="E-mail" name="Email">
-                    <input class="form-control" type="text" data-val="^[0-9]+$" placeholder="Phone number" name="Phone">
-                    <textarea class="form-control" cols="30" rows="10" placeholder="Your message" name="massege"></textarea>
-                   <input class="submit_btn" style="float:left" type="submit" value="Send">  <span id="inter" style="opacity:0" data-leng="eng"></span>
-                </form>
+                  <form id="opinion">
+                      <input class="form-control" type="text" data-val="^[а-яА-ЯёЁa-zA-Z]+$" data-val-msg="Incorrect Name" data-msgid="nameid" placeholder="Name" name="Namee"><span id="nameid">test</span>
+                      <input class="form-control" type="text" data-val="^[-\w.]+@([A-z0-9][-A-z0-9]+\.)+[A-z]{2,4}$" data-val-msg="Incorrect E-mail" data-msgid="emailid" placeholder="E-mail" name="Email"><span id="emailid">test</span>
+                      <input class="form-control" type="text" data-val="^\+(?:[0-9]●?){6,14}[0-9]$" data-val-msg="incorrect Phone" data-msgid="phoneid" placeholder="Phone" name="Phone"><span id="phoneid">test</span>
+                      <textarea class="form-control" cols="30" rows="10" placeholder="Your message" name="massege"></textarea>
+                      <input class="submit_btn" style="float:left" type="submit" value="Send">  <span id="inter" style="opacity:0"></span>
+                  </form>
               </div>
             </div>
             <!-- BEGAIN CONTACT MAP -->
