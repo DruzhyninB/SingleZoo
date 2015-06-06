@@ -1380,7 +1380,7 @@ textarea .form-control {
 }
 
 @media(max-width:360px ){
-    .leng{right: 120px;}
+    .leng{right: 180px;}
 	.slider_caption {margin-top: 28%;}
 	.slider_caption > a {margin-top: 10px;}
 	.slides-navigation h3 {display: none;}
