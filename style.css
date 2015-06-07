@@ -639,7 +639,8 @@ div[data-dimension] {
   border-bottom:5px solid #26A65B;
 }
 .counter_section {
-    background-image: url('img/works_counterbg.jpg');
+    /*background-image: url('img/works_counterbg.jpg');*/
+    background-color:black;
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-attachment:fixed;
